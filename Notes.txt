@@ -1,0 +1,46 @@
+Omni Foods learning 
+=======================
+<Header> tag helps google 
+
+To set image as a background
+===============================
+header{
+    background-image:url(./images/hero.jpg);
+    background-size:cover; //to set as a cover image 
+    background-position: center; //to center it and, so its availabe in diffrent browser size
+    height: 100vh;   //to set the viewport for complete 
+}
+
+To aling div with text in center
+===================================
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+FontSize
+==============================
+We should set base  font size for the application and then use the percentage for the font size where we want to manipulate it.
+Eg:
+===
+
+html{
+    font-size:20px;
+}
+
+.someclass{
+    font-size:200%  // now here 200% will become 40px as we have doubled it.
+}
+
+inline-block
+=============
+To make inline element treated as block element , so that we can add padding and margin to it , we use 
+
+display: inline-block;
+
+To use flat colors use below link
+===================================
+https://flatuicolors.com/palette/defo
